@@ -1,39 +1,26 @@
+                 Visual Analysis of Gender and Age Data
 
-PRODIGY_DS_01 — Gender and Age Distribution Visualization
+This project focuses on using Python tools to explore and represent basic demographic information—specifically age and gender—through visualizations.
+ Overview of the Dataset:
+The dataset includes details about 30 individuals. For each individual, the following data points are included:
+ -An ID number (from 1 to 30)
+ -Their age
+ -Their gender (Male or Female)
 
-This is my first task as part of the Data Science Internship at Prodigy Infotech.
-In this task, I created a small dataset representing a population of 25 people, including their Age and Gender.
-I used Pandas to manage the data and Matplotlib to visualize it.
+What This Project Does:
+Dataset Preparation:
+  A small sample dataset is manually created using Python’s dictionary and DataFrame functions. It contains both numeric and categorical values.
+ Gender-Based Visualization:
+  A bar graph is created to illustrate how many individuals identify as male or female. Each gender is shown using a different color, making it easy to compare the two.
+ Age-Based Visualization:
+  A histogram is plotted to examine how the ages of the 30 individuals are distributed. The age values are grouped into different ranges (bins), allowing us to see which age groups are more common in the sample.
 
-The visualizations I created are:
- -A Bar Chart showing the Gender Distribution in the population
- -A Histogram showing the Age Distribution in the population
+Tools & Libraries Used:
+  Pandas is used for organizing the dataset in a tabular format.
+Matplotlib is used to create the bar chart and histogram.
 
+Goal of the Project:
+  The main aim is to practice data visualization techniques on a small dataset. This includes:
+  Understanding how to represent categorical and numerical data graphically.
+  Getting insights into population characteristics using simple plots.
 
-Technologies Used
--Python
--Pandas
--Matplotlib
-
- What I Learned
-Through this task, I gained hands-on experience and practical skills in:
--Creating and manipulating DataFrames with Pandas
--Plotting categorical data using Bar Charts
--Plotting continuous data using Histograms
-Adding labels, colors, and titles to visualizations for better readability
-Understanding how simple data visualizations can provide insights from raw data
-
-
-
- Personal Reflection
-This is also my first internship and my first task in Data Science.
-Through this task, I also learned:
--How to use GitHub
--How to post and share work on LinkedIn
--Why we use platforms like GitHub and LinkedIn in a professional setting
-
-#Although I had some basic knowledge about these tools before, this internship helped me gain a much clearer understanding of their importance and practical use.
-
- #Thank You
-I would like to sincerely thank Prodigy Infotech for giving me this wonderful opportunity to learn and grow.
-I’m looking forward to completing more tasks and improving my skills!
